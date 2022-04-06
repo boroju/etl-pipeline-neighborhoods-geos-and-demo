@@ -1,0 +1,89 @@
+{
+    "fields": [
+        {
+            "name": "geo_id",
+            "nullable": true,
+            "type": "string",
+            "metadata": {
+                "original_name": "id"
+            }
+        },
+        {
+            "name": "name",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "state_abbr",
+            "nullable": true,
+            "type": "string",
+            "metadata": {
+                "original_name": "state"
+            }
+        },
+        {
+            "name": "state_fips_code",
+            "nullable": true,
+            "type": "string",
+            "metadata": {
+                "original_name": "statefpcd"
+            }
+        },
+        {
+            "name": "metro",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "incorporated_place",
+            "nullable": true,
+            "type": "string",
+            "metadata": {
+                "original_name": "incplace"
+            }
+        },
+        {
+            "name": "county",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "county_fips_code",
+            "nullable": true,
+            "type": "string",
+            "metadata": {
+                "original_name": "countyfpcd"
+            }
+        },
+        {
+            "name": "longitude",
+            "nullable": true,
+            "type": "decimal(9,6)",
+            "metadata": {}
+        },
+        {
+            "name": "latitude",
+            "nullable": true,
+            "type": "decimal(9,6)",
+            "metadata": {}
+        },
+        {
+            "name": "geoloc",
+            "nullable": true,
+            "type": "string",
+            "metadata": {
+                "original_name": "geometry"
+            }
+        },
+        {
+            "name": "_bad_data",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ],
+    "type": "struct"
+}

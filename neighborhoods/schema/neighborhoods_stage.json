@@ -1,0 +1,107 @@
+{
+    "fields": [
+        {
+            "name": "created_datetime",
+            "nullable": true,
+            "type": "timestamp",
+            "metadata": {}
+        },
+        {
+            "name": "geo_type",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "neighborhood_type",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "geo_id",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "name",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "fips_code",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "state_abbr",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "state_fips_code",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "metro",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "incorporated_place",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "county",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "county_fips_code",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "longitude",
+            "nullable": true,
+            "type": "decimal(9,6)",
+            "metadata": {}
+        },
+        {
+            "name": "latitude",
+            "nullable": true,
+            "type": "decimal(9,6)",
+            "metadata": {}
+        },
+        {
+            "name": "geoloc",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "load_date",
+            "nullable": true,
+            "type": "date",
+            "metadata": {}
+        },
+        {
+            "name": "_bad_data",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ],
+    "type": "struct"
+}
