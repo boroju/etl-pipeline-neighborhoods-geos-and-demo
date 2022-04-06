@@ -1,0 +1,3727 @@
+{
+    "fields": [
+        {
+            "name": "geo_type",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "geo_id",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "geo_nm",
+            "nullable": true,
+            "type": "string",
+            "metadata": {}
+        },
+        {
+            "name": "longitude",
+            "nullable": true,
+            "type": "decimal(9,6)",
+            "metadata": {}
+        },
+        {
+            "name": "latitude",
+            "nullable": true,
+            "type": "decimal(9,6)",
+            "metadata": {}
+        },
+        {
+            "name": "area_sq_mi",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_1990",
+            "nullable": true,
+            "type": "integer",
+            "metadata": {}
+        },
+        {
+            "name": "population_2000",
+            "nullable": true,
+            "type": "integer",
+            "metadata": {}
+        },
+        {
+            "name": "population_2010",
+            "nullable": true,
+            "type": "integer",
+            "metadata": {}
+        },
+        {
+            "name": "population",
+            "nullable": true,
+            "type": "integer",
+            "metadata": {}
+        },
+        {
+            "name": "population_5_yr_projection",
+            "nullable": true,
+            "type": "integer",
+            "metadata": {}
+        },
+        {
+            "name": "population_density_sq_mi",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_chg_pct_1990",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_chg_pct_2000",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_chg_pct_2010",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_chg_pct_5_yr_projection",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_1990",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_2000",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_2010",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_5_yr_projection",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_chg_pct_1990",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_chg_pct_2000",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_chg_pct_2010",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_chg_pct_5_yr_projection",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_size_avg",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {
+                "original_name": "household_size_avg"
+            }
+        },
+        {
+            "name": "population_family_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_non_family_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_family",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_family",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_family_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_family_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_family_married_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_family_other_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_other_male_householder_no_wife_present_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_other_female_householder_no_husband_present_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_married_w_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_married_wo_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_other_male_hh_no_wife_present_w_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_other_male_hh_no_wife_present_wo_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_other_female_hh_no_husband_pres_w_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_fam_other_female_hh_no_husband_pres_wo_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_non_family_male_householder_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_non_family_male_hh_w_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_non_family_male_hh_wo_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_non_family_female_householder_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_non_family_female_hh_w_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hh_non_family_female_hh_wo_children_l18_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_family_w_children_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_family_wo_children_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_family_w_children_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_family_wo_children_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_urban_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_rural_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_white_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_black_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_asian_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_american_indian_or_alaskan_native_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_multiracial_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_other_race_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_white_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_white_non_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_non_white_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_non_white_non_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_non_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_white_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_black_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_asian_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_american_indian_or_alaskan_native_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_multiracial_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_other_race_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_white_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_white_non_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_white_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_white_non_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_non_hispanic_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_0_5_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_6_11_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_12_17_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_18_24_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_25_34_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_35_44_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_45_54_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_55_64_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_65_74_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_75_84_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_aged_85p_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "white_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "black_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "asian_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "american_indian_or_alaskan_native_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "multiracial_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "other_race_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hispanic_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "white_non_hispanic_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "male_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "female_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_0_5_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_6_11_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_12_17_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_18_24_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_25_34_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_35_44_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_45_54_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_55_64_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_65_74_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_75_84_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_male_aged_85p_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_0_5_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_6_11_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_12_17_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_18_24_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_25_34_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_35_44_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_45_54_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_55_64_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_65_74_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_75_84_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_female_aged_85p_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_never_married_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_widowed_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_divorced_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_married_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_married_and_together_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_married_and_separated_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_males_married_and_absent_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_never_married_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_widowed_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_divorced_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_married_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_married_and_together_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_married_and_separated_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_females_married_and_absent_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_primary_language_english_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_primary_language_spanish_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_primary_language_other_indo_european_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_primary_language_asian_or_other_pacific_island_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_primary_language_other_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_citizen_native_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_citizen_naturalized_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_non_citizen_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_group_quarters_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_institutional_group_quarters_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_non_institutional_group_quarters_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_in_poverty_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_veterans_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "family_median_size",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_1_person_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_2_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_3_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_4_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_5_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_6_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_7_or_more_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_family_median_size",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_1_person_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_2_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_3_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_4_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_5_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_6_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_7_or_more_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "median_travel_time_to_work_mi",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "travel_time_to_work_0_14_mi_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "travel_time_to_work_15_29_mi_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "travel_time_to_work_30_59_mi_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "travel_time_to_work_60_89_mi_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "travel_time_to_work_90_or_more_mi_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_car_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_motorcycle_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_bicycle_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_walk_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_other_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_work_from_home_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_bus_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_trolley_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_light_rail_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_railroad_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_ferry_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_public_taxi_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_car_alone_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation_car_carpool_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_median_age",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_0_24_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_25_34_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_35_44_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_45_54_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_55_64_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_65_74_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_75_84_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "householder_age_85_and_over_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "median_household_size",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_1_person_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_2_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_3_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_4_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_5_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_6_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_7_or_more_persons_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units",
+            "nullable": true,
+            "type": "decimal(16,4)",
+             "metadata": {}
+        },
+        {
+            "name": "housing_units_occupied",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_occupied_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_for_rent_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_rented_not_occupied_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_for_sale_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_sold_not_occupied_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_seasonal_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_for_migrant_workers_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_vacant_other_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_owner_occupied",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_renter_occupied",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_owner_occupied_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_units_renter_occupied_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_1_unit_detached_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_1_unit_attached_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_2_units_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_3_4_units_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_5_9_units_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_10_19_units_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_20_49_units_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_50_or_more_units_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_trailer_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_occupied_structure_other_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_median_rent",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_less_than_250_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_250_499_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_500_749_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_750_999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_1000_1249_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_1250_1499_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_1500_1999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_2000_or_more_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_rent_no_cash_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_with_mortgage_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_without_mortgage_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_median_value",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_less_than_10000_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_10000_14999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_15000_19999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_20000_24999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_25000_29999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_30000_34999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_35000_39999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_40000_49999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_50000_59999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_60000_69999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_70000_79999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_80000_89999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_90000_99999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_100000_124999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_125000_149999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_150000_174999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_175000_199999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_200000_249999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_250000_299999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_300000_399999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_400000_499999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_500000_749999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_750000_999999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_owner_households_valued_1000000_or_more_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_median_vehicles",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_with_no_vehicles_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_with_1_vehicle_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_with_2_vehicles_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_with_3_vehicles_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_with_4_or_more_vehicles_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_median_built_yr",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_2005_or_later_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_2000_2004_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1990_1999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1980_1989_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1970_1979_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1960_1969_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1950_1959_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1940_1949_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing_built_1939_or_earlier_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "median_length_of_residence_yr",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "moved_in_2005_or_later_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "moved_in_2000_2004_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "moved_in_1990_1999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "moved_in_1980_1989_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "moved_in_1970_1979_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "moved_in_1969_or_earlier_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "personal_income",
+            "nullable": true,
+            "type": "decimal(21,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_income",
+            "nullable": true,
+            "type": "decimal(21,4)",
+            "metadata": {}
+        },
+        {
+            "name": "median_household_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_household_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_income_per_capita",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_income_high_income_avg",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_less_than_15000_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_15000_24999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_25000_34999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_35000_49999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_50000_74999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_75000_99999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_100000_124999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_125000_149999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_150000_199999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_income_200000_and_over_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "family_income",
+            "nullable": true,
+            "type": "decimal(21,4)",
+            "metadata": {}
+        },
+        {
+            "name": "family_median_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "family_avg_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "family_per_capita_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "family_income_high_income_avg",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_less_than_15000_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_15000_24999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_25000_34999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_35000_49999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_50000_74999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_75000_99999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_100000_124999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_125000_149999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_150000_199999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "families_income_200000_and_over_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_family_income",
+            "nullable": true,
+            "type": "decimal(21,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_family_median_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_family_avg_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_family_per_capita_income",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_family_income_high_income_avg",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_less_than_15000_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_15000_24999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_25000_34999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_35000_49999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_50000_74999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_75000_99999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_100000_124999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_125000_149999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_150000_199999_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_families_income_200000_and_over_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_preprimary_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_preprimary_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_kindergarten_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_kindergarten_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_grades_1_4_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_grades_1_4_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_grades_5_8_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_grades_5_8_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_grades_9_12_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_grades_9_12_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_undergraduate_college_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_undergraduate_college_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_public_graduate_or_professional_school_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_private_graduate_or_professional_school_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "enrollment_not_enrolled_in_school_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_some_hs_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_hs_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_some_college_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_assoc_degree_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_bach_degree_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_mast_degree_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_prof_degree_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_doct_degree_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education_grad_degree_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_civilian_male_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_civilian_female_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_armed_forces_male_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_armed_forces_female_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_unemployed_male_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_unemployed_female_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_not_in_the_labor_force_male_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "population_16p_not_in_the_labor_force_female_pct_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_agri_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_mine_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_const_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_manuf_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_whole_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_retail_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_trans_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_utils_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_info_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_finetc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_real_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_prof_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_manag_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_admin_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_educ_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_health_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_arts_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_accom_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_otsrv_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "emp_pubad_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_management_business_and_financial_operations_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_professional_and_related_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_sales_and_office_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_service_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_farming_fishing_and_forestry_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_construction_extraction_and_maintenance_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_production_transportation_and_material_moving_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_white_collar_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_blue_collar_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "private_for_profit_employee_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "private_for_profit_self_employed_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "private_not_for_profit_employee_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "local_government_employee_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "state_government_employee_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "federal_government_employee_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "not_incorporated_self_employed_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "unpaid_family_worker_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_naics_cnt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_forestry_fishing_hunting_agriculture_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_mining_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_utilities_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_construction_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_manufacturing_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_wholesale_trade_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_retail_trade_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_transportation_warehousing_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_information_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_finance_insurance_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_real_estate_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_professional_scientific_technical_svcs_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_management_companies_enterprises_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_admin_support_waste_management_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_education_services_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_health_care_social_assistance_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_arts_entertainment_recreation_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_accommodation_food_svcs_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "employee_other_svcs_excluding_public_admin_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_naics_cnt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_forestry_fishing_hunting_agriculture_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_mining_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_utilities_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_construction_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_manufacturing_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_wholesale_trade_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_retail_trade_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_transportation_warehousing_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_information_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_finance_insurance_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_real_estate_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_professional_scientific_technical_svcs_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_management_companies_enterprises_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_admin_support_waste_management_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_education_services_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_health_care_social_assistance_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_arts_entertainment_recreation_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_accommodation_food_svcs_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "establishment_other_svcs_excluding_public_admin_naics_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_soc_cnt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_management_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_business_financial_operations_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_computer_math_science_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_architecture_engineering_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_life_physical_social_sciences_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_community_social_svcs_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_legal_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_education_training_library_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_art_design_entertainment_sports_media_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_healthcare_practitioners_tech_ops_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_healthcare_support_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_protective_service_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_food_preparation_serving_related_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_building_grounds_cleaning_maintenance_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_personal_care_service_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_sales_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_administrative_support_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_farming_fishing_forestry_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_construction_extraction_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_installation_maintenance_repair_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_production_operations_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "occupation_transportation_material_moving_soc_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_utility_gas_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_bottled_tank_or_lp_gas_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_electricity_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_fuel_oil_kerosene_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_coal_coke_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_wood_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_solar_energy_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_other_fuel_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "households_heating_fuel_none_pct",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "retail_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "furniture_and_home_furnishing_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "electrical_and_appliance_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "building_materials_and_garden_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "food_and_beverage_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "health_and_personal_care_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "gas_station_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "clothing_and_accessories_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "sporting_goods_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "general_merchandise_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "miscellaneous_store_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_store_purchase_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "food_services_sales_amt",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_apparel",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_education_and_communications",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_food_and_beverages",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_other_goods_and_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_housing",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_medical_care",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_recreation",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cpi_transportation",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "annual_expenditures",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "food",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "food_at_home",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cereals_and_bakery_products",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "dairy",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "fruits_and_vegetables",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "non_alcoholic_beverages",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "food_prepared_by_consumer_unit_on_trips",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "local_restaurants",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "restaurants_on_trips",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "alcoholic_beverages",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housing",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_operations",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "housekeeping_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_furnishings_and_equipment",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "household_textiles",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "furniture",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "floor_coverings",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "major_appliances",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "small_appliances",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "miscellaneous_household_equipment",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "apparel_and_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "men_and_boys",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "men_16_and_over",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "boys",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "women_and_girls",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "women_16_and_over",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "girls",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "children",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "footwear",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "other_apparel_products_and_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "transportation",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "vehicle_purchase_net_outlay",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "gasoline_and_motor_oil",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "other_vehicle_expenses",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "public_transportation",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "healthcare",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "health_insurance",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "medical_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "drugs",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "medical_supplies",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "entertainment",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "feeds_and_admissions",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "audio_and_visual_equipment_and_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "pets_toys_hobbies_and_playground_equipment",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "other_entertainment_supplies_equipment_and_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "personal_care_products_and_services",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "reading",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "education",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "tobacco",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "cash_contributions",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "personal_insurance_and_pensions",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "mortality_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "murder_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "forcible_rape_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "forcible_robbery_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "aggravated_assault_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "burglary_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "larceny_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "motor_vehicle_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "crime_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "ozone_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "lead_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "carbon_monoxide_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "nitrogen_dioxide_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "particulate_matter_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "air_pollution_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "weather_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "earthquake_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hail_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "hurricane_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "tornado_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "wind_index",
+            "nullable": true,
+            "type": "decimal(16,4)",
+            "metadata": {}
+        },
+        {
+            "name": "annual_avg_temp_min",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "annual_avg_temp_max",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "annual_avg_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "possible_sunshine_pct",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "sky_cover_mean",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "clear_day_mean",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "rainy_day_mean",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "snow_day_mean",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "annual_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "annual_snowfall_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jan_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_feb_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_mar_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_apr_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_may_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jun_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jul_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_aug_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_sep_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_oct_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_nov_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_dec_low_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jan_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_feb_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_mar_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_apr_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_may_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jun_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jul_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_aug_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_sep_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_oct_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_nov_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_dec_high_temp",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jan_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_feb_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_mar_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_apr_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_may_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jun_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_jul_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_aug_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_sep_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_oct_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_nov_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "avg_dec_precip_in",
+            "nullable": true,
+            "type": "decimal(8,4)",
+            "metadata": {}
+        },
+        {
+            "name": "_bad_data",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ],
+    "type": "struct"
+}
