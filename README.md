@@ -1,5 +1,5 @@
 # us_neighborhoods_geos_and_demo
-Data Engineering process - ETL Pipeline for handling US Real State (Neighborhoods) geographic and demographic data...
+Data Engineering process - ETL Pipeline for handling US Real State (Neighborhoods) geographic and demographic data.
 
 **Steps:**
 1) Check if new files available in vendor's API.
