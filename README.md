@@ -6,7 +6,7 @@ Steps:
 2) Download files from API --> to HDFS RAW.
 3) Process data by using JSON Schema from RAW --> to HDFS STAGE.
 4) Perform transformations and move data from STAGE --> to HDFS CURATED.
-5) Sqoop data to Microsoft
+5) Sqoop data to Microsoft SQL Server.
 
 Tooling: 
 * Hadoop
